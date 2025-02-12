@@ -6,8 +6,6 @@
 
 ## 🌟 Project Overview
 
-...
-
 Modern Android application designed for discovering, exploring, and saving theatre shows in the West End of London.
 
 ## 🚀 Technical Architecture
