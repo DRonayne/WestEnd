@@ -1,16 +1,15 @@
 # West End Shows 🎭 - Android App
 
+## App Demo Videos
 
-
-https://github.com/user-attachments/assets/a24b2e19-b094-4438-bd9f-6b8e455bf4c5
-
-
-
-https://github.com/user-attachments/assets/6d1c4fc3-f2f5-4f3b-a9ed-0992875c028e
-
-
+| Preview | Description |
+|---------|-------------|
+| <video src="https://github.com/user-attachments/assets/a24b2e19-b094-4438-bd9f-6b8e455bf4c5" controls="controls" muted="muted" width="250"></video> | First App Walkthrough |
+| <video src="https://github.com/user-attachments/assets/6d1c4fc3-f2f5-4f3b-a9ed-0992875c028e" controls="controls" muted="muted" width="250"></video> | Second App Walkthrough |
 
 ## 🌟 Project Overview
+
+...
 
 Modern Android application designed for discovering, exploring, and saving theatre shows in the West End of London.
 
