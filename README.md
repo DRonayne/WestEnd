@@ -1,6 +1,6 @@
 # West End Shows 🎭 - Android App
 
-| Preview | Description |
+| Phone | Tablet |
 |---------|-------------|
 | <video src="https://github.com/user-attachments/assets/a24b2e19-b094-4438-bd9f-6b8e455bf4c5" controls="controls" muted="muted" width="250"></video> | <video src="https://github.com/user-attachments/assets/6d1c4fc3-f2f5-4f3b-a9ed-0992875c028e" controls="controls" muted="muted" width="250"></video> |
 
