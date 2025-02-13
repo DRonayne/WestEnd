@@ -4,69 +4,89 @@
   <h1>West End Shows 🎭 - Android App</h1>
 </div>
 
-| Phone | Tablet |
-|---------|-------------|
-| <video src="https://github.com/user-attachments/assets/a24b2e19-b094-4438-bd9f-6b8e455bf4c5" controls="controls" muted="muted" width="250"></video> | <video src="https://github.com/user-attachments/assets/6d1c4fc3-f2f5-4f3b-a9ed-0992875c028e" controls="controls" muted="muted" width="250"></video> |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong>Phone</strong></td>
+      <td align="center"><strong>Tablet</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/a24b2e19-b094-4438-bd9f-6b8e455bf4c5" 
+               controls muted width="250"
+               alt="Phone Demo">
+        </video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/6d1c4fc3-f2f5-4f3b-a9ed-0992875c028e" 
+               controls muted width="250"
+               alt="Tablet Demo">
+        </video>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 🌟 Project Overview
+## 🎯 About
 
-Modern Android application designed for discovering, exploring, and saving theatre shows in the West End of London.
+A modern Android application that brings London's vibrant theatre scene to your device. Built with the latest Android technologies and Material Design 3 principles, it offers a seamless experience for discovering West End performances.
 
-## 🚀 Technical Architecture
+## 🏗️ Architecture
 
-### Modern Android Development Stack
-- **Language**: Kotlin
-- **Jetpack Compose**: Modern declarative UI toolkit
-- **MVVM Architecture**: Clean, testable, and maintainable code structure
-- **Dependency Injection**: Hilt
-- **Asynchronous Programming**: Kotlin Coroutines & Flow
-- **Local Storage**: Room Database
-- **Network Requests**: Retrofit
+```kotlin
+.
+├── data                    # Data layer
+│   ├── local              # Local storage
+│   │   ├── dao           # Data Access Objects
+│   │   └── entity        # Database entities
+│   └── remote            # Remote data source
+│       ├── api           # API interfaces
+│       └── dto           # Data Transfer Objects
+├── di                     # Dependency injection modules
+├── domain                 # Business logic
+│   ├── model             # Domain models
+│   └── repository        # Repository interfaces
+├── presentation          # UI layer
+│   ├── home             # Home screen
+│   ├── navigation       # Navigation management
+│   ├── saved            # Saved shows feature
+│   ├── search           # Search functionality
+│   ├── settings         # App settings
+│   ├── show             # Show details
+│   └── theme            # App theming
+└── utils                # Utility functions
+```
 
-## 🔑 Key Features
+### Tech Stack
+- **UI**: Jetpack Compose with Material 3
+- **Architecture**: MVVM + Clean Architecture
+- **DI**: Hilt
+- **Concurrency**: Kotlin Coroutines & Flow
+- **Storage**: Room
+- **Networking**: Retrofit
+- **Image Loading**: Coil
+- **Maps**: OpenStreetMap
+- **Testing**: JUnit5, Turbine, MockK
 
-### 1. Dynamic Show Exploration
-- **Home Screen**: Categorised show sections
-  - Featured Shows
-  - Trending Now
-  - Last Chance to See
-  - Award Winners
-  - New Releases
+## ✨ Features
 
-### 2. Advanced Search & Filtering
-- Search functionality
-- Multi-dimensional filtering:
-  - Text search
-  - Category selection
-  - Price range
-  - Quick filters (Special Offers, Award-Winning, Last Chance)
-- Sorting & Filtering options
+### 🎪 Show Discovery
+- **Curated Categories**
+  - Featured & trending shows
+  - Last chance performances
+  - Award-winning productions
+  - New releases
+- **Smart Search & Filters**
+  - Multi-criteria filtering
+  - Price range selection
 
-### 3. Responsive Design
-- Adaptive layout for phones and tablets
-- Dynamic navigation (bottom bar / rail)
-- Edge-to-edge UI with Material 3 design principles
+### 📱 Adaptive Design
+- Responsive layouts for all screen sizes
+- Edge-to-edge content
+- Material You dynamic theming
 
-### 4. Show Details Experience
-- Venue mapping with OpenStreetMap
-- Share functionality
-- Save/Unsave shows to favourites
-
-### 5. Data Management
-- Remote mock data fetched from a Google Sheet
-- Local caching with Room Database
-- Periodic data refresh mechanism
-
-## 🎨 Design Highlights
-
-- Custom Material 3 color scheme
-- Dynamic theming support
-- Custom typography using Google Fonts
-
-## 🔌 Key Dependencies
-- Jetpack Compose
-- Hilt
-- Retrofit
-- Room
-- Coil (Image Loading)
-- OpenStreetMap
+### 🗺️ Enhanced Details
+- Interactive venue mapping
+- Social sharing integration
+- Favourites management
+- Offline support
