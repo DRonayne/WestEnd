@@ -1,4 +1,8 @@
-# West End Shows 🎭 - Android App
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/26586094-6b53-4f27-9a6e-efef3f1bf1df" alt="ic_launcher" width="200">
+  
+  <h1>West End Shows 🎭 - Android App</h1>
+</div>
 
 | Phone | Tablet |
 |---------|-------------|
