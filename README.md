@@ -68,25 +68,25 @@ A modern Android application that brings London's vibrant theatre scene to your 
 - **Maps**: OpenStreetMap
 - **Testing**: JUnit5, Turbine, MockK
 
-## ✨ Features
+### 🛠️ Core Features
 
-### 🎪 Show Discovery
-- **Curated Categories**
-  - Featured & trending shows
-  - Last chance performances
-  - Award-winning productions
-  - New releases
-- **Smart Search & Filters**
-  - Multi-criteria filtering
-  - Price range selection
+#### Show Browsing
+- **Content Organisation**
+  - Home feed with categorised sections
+  - Award and popularity flags in data model
+  - New show detection with timestamp tracking
+- **Search Implementation**
+  - Multi-parameter filtering system
+  - Price range slider
 
-### 📱 Adaptive Design
-- Responsive layouts for all screen sizes
-- Edge-to-edge content
-- Material You dynamic theming
+#### 📱 UI Architecture
+- Responsive Compose layouts for larger screens
+- Edge-to-edge implementation with insets handling
+- Material You integration with dynamic colour extraction
+- Rail/bottom nav pattern based on screen size
 
-### 🗺️ Enhanced Details
-- Interactive venue mapping
-- Social sharing integration
-- Favourites management
-- Offline support
+#### 🔄 Core Functionality
+- OpenStreetMap integration for venue location maps
+- Native share sheet implementation 
+- Favourites system with local persistence
+- Offline caching
